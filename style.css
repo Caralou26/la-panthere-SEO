@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #3B3B3B;
 }
 
 .d-bloc button:hover {
@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -650,7 +650,7 @@ a[data-lightbox]:hover img {
 }
 
 h2, h1 {
-    color: #1E1E1E;
+    color: #3B3B3B;
     font-family: "helvetica";
     font-weight: 510;
     margin bottom: 20px;
@@ -666,11 +666,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #3B3B3B!important;
 }
 
 h1 {
-    color: #1E1E1E;
+    color: #3B3B3B;
     font-size: 25px;
     font-family: "helvetica";
 }
@@ -755,6 +755,10 @@ p {
     color: #FFFFFF!important;
 }
 
+.darkgrey {
+    color: #3B3B3B
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -800,13 +804,13 @@ p {
 
 .tc-contrast {
     color: white!important;
-    font-weight: 600;
+    font-weight: 500;
     z-index: 6;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #3B3B3B!important;
 }
 
 .btn-atomic-tangerine:hover {
