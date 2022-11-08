@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .navbar {
@@ -649,8 +649,13 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
+h2, h1 {
+    color: #1E1E1E;
+    font-family: "helvetica";
+    font-weight: 510;
+    margin bottom: 20px;
+}
+
 h3,
 h4,
 h5,
@@ -664,12 +669,39 @@ a {
     color: #575757!important;
 }
 
+h1 {
+    color: #1E1E1E;
+    font-size: 25px;
+    font-family: "helvetica";
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
+h4 {
+    color: #333333!important;
+}
+
+p {
+    font-size: 16px;
+}
+
+
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 34px;
 }
 
 .hero-bloc-text-sub {
@@ -686,19 +718,10 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 710px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
+} 
 
 .cta-hero {
     margin-top: 22px;
@@ -714,17 +737,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
 
 .med-width-whitespace {
     max-width: 800px;
@@ -732,13 +745,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -763,7 +769,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(52 48 37 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,6 +792,16 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-black {
+    color: black!important;
+}
+
+.tc-contrast {
+    color: white!important;
+    font-weight: 600;
+    z-index: 6;
 }
 
 .btn-atomic-tangerine {
